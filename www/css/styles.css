@@ -1,0 +1,14 @@
+#productPic {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 16px;
+}
+
+#productDetails p {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+#actionList {
+	clear: both;
+}
