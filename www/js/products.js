@@ -16,7 +16,7 @@ jQuery.support.cors = true;
 
                 var Id = $('#itId').val();
 
-                $.getJSON("http://localhost:4763/api/Mobile/" + Id,
+                $.getJSON("http://10.0.2.2:4763/api/Mobile/" + Id,
 
                     function (Data) {
 
