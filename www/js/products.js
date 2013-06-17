@@ -4,7 +4,7 @@ jQuery.support.cors = true;
 
                 $.getJSON('http://10.0.2.2:4763/api/Mobile', function (contactsJsonPayload) {
                     $(contactsJsonPayload).each(function (i, item) {
-                        var path = 'http://localhost:4763'
+                        var path = 'http://10.0.2.2:4763'
                         $('#items').append('<td>' + item.Title + '<br/>' +
                         '<img src="' + path + item.ProductArtUrl + '"/></a>' + '<br/>' + item.Price + '</td>');
                     });
