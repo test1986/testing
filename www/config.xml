@@ -14,7 +14,7 @@ Simple Catalogue search for use with Costumes R Us
 Conan
 </author>
 
-<preference name="phonegap-version" value="1.7.0" />
+<preference name="phonegap-version" value="2.7.0" />
 
 <!-- Icons -->
 
